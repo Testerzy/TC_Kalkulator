@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Root Signature="{B9D9273E-7266-43E0-BF02-97F168593604}" Version="11.0">
-	<TestData Description="" Key="{0F844D13-58E7-44ED-8B82-1E1AA4CD4471}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="coś tam robi" Key="{0F844D13-58E7-44ED-8B82-1E1AA4CD4471}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps>
@@ -19,6 +19,14 @@
 						<Parameter Name="Count" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 						<Parameter Name="IgnoreRunning" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
 						<Parameter Name="Timeout" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{1DAB76D5-FF3B-43F5-A96F-1FCFC7A330D7}">
+				<Data Description="Starts or resets the specified performance counter.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="CounterName" DefVarType="8" DefValueType="6" DefValueValue="DefaultCounter" VarType="8" ValueType="6" ValueValue="DefaultCounter" />
+						<Parameter Name="WarnIfExists" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
 					</Parameters>
 				</Data>
 			</Operation>
@@ -48,6 +56,21 @@
 						<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="Edycja|Kopiuj" />
 					</Parameters>
 					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.calc.wndKalkulator;" />
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="1000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Pauza" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
+				<Data Description="Replaces the current indicator text with the specified one.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Zaczynamy operacje" />
+					</Parameters>
 				</Data>
 			</Operation>
 			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
@@ -92,27 +115,15 @@
 					</Parameters>
 				</Data>
 			</Operation>
-			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
-				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
-					<CommonData Disabled="True" />
+			<Operation Type="{5006C6DA-7702-45C5-B4BB-DCBD0DC7B03E}">
+				<Data Description="Compares the %n Stores item with the image of the %p1 object." Checkpoint="wndKalkulator1">
 					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
-						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.calc.wndKalkulator.CalcFrame.Static" />
-						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wText" />
-						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="6" />
-						<Parameter Name="Value" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Sys.Clipboard" />
-						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
-				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
-					<CommonData Disabled="True" />
-					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
-						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.calc.wndKalkulator.CalcFrame.Static" />
-						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wText" />
-						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
-						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="25" />
-						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="False" />
+						<Parameter Name="Picture" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.calc.wndKalkulator" />
+						<Parameter Name="Transparent" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
+						<Parameter Name="Mouse" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
+						<Parameter Name="PixelTolerance" DefVarType="3" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="3" />
+						<Parameter Name="ColorTolerance" DefVarType="3" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="3" />
+						<Parameter Name="Mask" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
 					</Parameters>
 				</Data>
 			</Operation>
@@ -171,6 +182,22 @@
 					</Operation>
 				</Children>
 			</Operation>
+			<Operation Type="{7600E387-6ACC-4456-B1AD-E4C3A5C03DF9}">
+				<Data Description="Compare MaxExecTime (ms) with the time passed after starting or resetting the specified performance counter.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="MaxExecTime" DefVarType="3" VarType="3" ValueType="1" ValueValue="1000" />
+						<Parameter Name="OperationName" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="CounterName" DefVarType="8" DefValueType="6" DefValueValue="DefaultCounter" VarType="8" ValueType="6" ValueValue="DefaultCounter" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{CC79E703-9108-4AB2-82AB-02241BA652BA}">
+				<Data Description="Returns the number of milliseconds passed after starting or resetting the specified performance counter.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="CounterName" DefVarType="8" DefValueType="6" DefValueValue="DefaultCounter" VarType="8" ValueType="6" ValueValue="DefaultCounter" />
+					</Parameters>
+				</Data>
+			</Operation>
 			<Operation Type="{180A2D9C-07CF-406C-A3AD-F5F88281A719}">
 				<Data Description="Closes the process by sending the WM_CLOSE message to its main window." Action="Close" Process="calc" Index="1">
 					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
@@ -180,6 +207,15 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Variables Version="3" Key="{FF00F03C-EDC7-4DC9-A1C3-1F7A6BC3FB3C}" />
-	<Parameters Key="{D598B241-7EB9-45A7-9B3C-1266E1F1A855}" />
+	<Variables Version="3" Key="{FF00F03C-EDC7-4DC9-A1C3-1F7A6BC3FB3C}">
+		<Items>
+			<Variable Name="Var1" Type="{88422C25-DDF4-4EA1-B7CC-95779A023F5D}" Local="False">
+				<DefValue IntValue="2" />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{D598B241-7EB9-45A7-9B3C-1266E1F1A855}">
+		<Parameter0 Name="Param1" VarType="3" IsOptional="True" DefValueType="1" DefValueValue="0" Description="" />
+		<Parameter1 Name="Param2" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="jghf" Description="" />
+	</Parameters>
 </Root>

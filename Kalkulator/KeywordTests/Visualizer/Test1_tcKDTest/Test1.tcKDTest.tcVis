@@ -23,10 +23,10 @@
 			<Node name="item idx=0000">
 				<Prp name="click point x" type="I" value="75"/>
 				<Prp name="click point y" type="I" value="256"/>
-				<Prp name="datetime" type="D" value="42528.467423669"/>
+				<Prp name="datetime" type="D" value="42529.3822825926"/>
 				<Prp name="image file name" type="S" value="visImage0.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="1"/>
+				<Prp name="line #" type="I" value="2"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="270"/>
 				<Prp name="object left" type="I" value="58"/>
@@ -40,10 +40,10 @@
 			<Node name="item idx=0001">
 				<Prp name="click point x" type="I" value="153"/>
 				<Prp name="click point y" type="I" value="224"/>
-				<Prp name="datetime" type="D" value="42528.4674283333"/>
+				<Prp name="datetime" type="D" value="42529.3822876968"/>
 				<Prp name="image file name" type="S" value="visImage1.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="2"/>
+				<Prp name="line #" type="I" value="3"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="238"/>
 				<Prp name="object left" type="I" value="136"/>
@@ -57,10 +57,10 @@
 			<Node name="item idx=0002">
 				<Prp name="click point x" type="I" value="75"/>
 				<Prp name="click point y" type="I" value="256"/>
-				<Prp name="datetime" type="D" value="42528.4674313773"/>
+				<Prp name="datetime" type="D" value="42529.3822923032"/>
 				<Prp name="image file name" type="S" value="visImage2.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="3"/>
+				<Prp name="line #" type="I" value="4"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="270"/>
 				<Prp name="object left" type="I" value="58"/>
@@ -74,10 +74,10 @@
 			<Node name="item idx=0003">
 				<Prp name="click point x" type="I" value="192"/>
 				<Prp name="click point y" type="I" value="272"/>
-				<Prp name="datetime" type="D" value="42528.4674346296"/>
+				<Prp name="datetime" type="D" value="42529.3822956597"/>
 				<Prp name="image file name" type="S" value="visImage3.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="4"/>
+				<Prp name="line #" type="I" value="5"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="302"/>
 				<Prp name="object left" type="I" value="175"/>
@@ -91,10 +91,10 @@
 			<Node name="item idx=0004">
 				<Prp name="click point x" type="I" value="-1"/>
 				<Prp name="click point y" type="I" value="-1"/>
-				<Prp name="datetime" type="D" value="42528.4674418866"/>
+				<Prp name="datetime" type="D" value="42529.3824334143"/>
 				<Prp name="image file name" type="S" value="visImage4.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="5"/>
+				<Prp name="line #" type="I" value="6"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="322"/>
 				<Prp name="object left" type="I" value="0"/>

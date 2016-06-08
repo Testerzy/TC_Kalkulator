@@ -1,0 +1,1 @@
+Sprawdz w kalkulatorze czy wynik operacji 2*2 daje 4

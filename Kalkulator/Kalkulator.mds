@@ -41,6 +41,15 @@
 				<Prp name="type" type="S" value="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}"/>
 				<Prp name="typename" type="S" value="Keyword Testing"/>
 			</Node>
+			<Node name="manualtests">
+				<Node name="item data">
+					<Prp name="storage" type="S" value="ManualTests\ManualTests.tcMTs"/>
+				</Node>
+				<Prp name="key" type="S" value="{50EEFFA7-4178-4D98-A266-D60255C8924A}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{F57E13C5-95C5-4DC4-BE5A-9A456AE18F15}"/>
+				<Prp name="typename" type="S" value="Manual Tests"/>
+			</Node>
 			<Node name="namemapping">
 				<Node name="item data">
 					<Prp name="relpath" type="S" value="NameMapping\NameMapping.tcNM"/>
