@@ -23,7 +23,7 @@
 			<Node name="item idx=0000">
 				<Prp name="click point x" type="I" value="75"/>
 				<Prp name="click point y" type="I" value="256"/>
-				<Prp name="datetime" type="D" value="42529.3822825926"/>
+				<Prp name="datetime" type="D" value="42529.4441852778"/>
 				<Prp name="image file name" type="S" value="visImage0.png"/>
 				<Prp name="kind" type="I" value="0"/>
 				<Prp name="line #" type="I" value="2"/>
@@ -40,7 +40,7 @@
 			<Node name="item idx=0001">
 				<Prp name="click point x" type="I" value="153"/>
 				<Prp name="click point y" type="I" value="224"/>
-				<Prp name="datetime" type="D" value="42529.3822876968"/>
+				<Prp name="datetime" type="D" value="42529.4441907986"/>
 				<Prp name="image file name" type="S" value="visImage1.png"/>
 				<Prp name="kind" type="I" value="0"/>
 				<Prp name="line #" type="I" value="3"/>
@@ -57,7 +57,7 @@
 			<Node name="item idx=0002">
 				<Prp name="click point x" type="I" value="75"/>
 				<Prp name="click point y" type="I" value="256"/>
-				<Prp name="datetime" type="D" value="42529.3822923032"/>
+				<Prp name="datetime" type="D" value="42529.444196088"/>
 				<Prp name="image file name" type="S" value="visImage2.png"/>
 				<Prp name="kind" type="I" value="0"/>
 				<Prp name="line #" type="I" value="4"/>
@@ -74,7 +74,7 @@
 			<Node name="item idx=0003">
 				<Prp name="click point x" type="I" value="192"/>
 				<Prp name="click point y" type="I" value="272"/>
-				<Prp name="datetime" type="D" value="42529.3822956597"/>
+				<Prp name="datetime" type="D" value="42529.4442024884"/>
 				<Prp name="image file name" type="S" value="visImage3.png"/>
 				<Prp name="kind" type="I" value="0"/>
 				<Prp name="line #" type="I" value="5"/>
@@ -91,7 +91,7 @@
 			<Node name="item idx=0004">
 				<Prp name="click point x" type="I" value="-1"/>
 				<Prp name="click point y" type="I" value="-1"/>
-				<Prp name="datetime" type="D" value="42529.3824334143"/>
+				<Prp name="datetime" type="D" value="42529.4442397106"/>
 				<Prp name="image file name" type="S" value="visImage4.png"/>
 				<Prp name="kind" type="I" value="0"/>
 				<Prp name="line #" type="I" value="6"/>

@@ -1670,7 +1670,35 @@
 			<Prp name="settingsversion" type="S" value="11.31"/>
 		</Node>
 		<Node name="test data">
-			<Node name="child list"/>
+			<Node name="child list">
+				<Node name="item idx=0000">
+					<Node name="child list"/>
+					<Node name="test parameters">
+						<Node name="param idx=0000">
+							<Prp name="localvarname" type="S" value=""/>
+							<Prp name="name" type="S" value="Param1"/>
+							<Prp name="type" type="I" value="0"/>
+							<Prp name="value" type="I" value="0"/>
+						</Node>
+						<Node name="param idx=0001">
+							<Prp name="localvarname" type="S" value=""/>
+							<Prp name="name" type="S" value="Param2"/>
+							<Prp name="type" type="I" value="1"/>
+							<Prp name="value" type="S" value="jghf"/>
+						</Node>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="group" type="B" value="0"/>
+					<Prp name="key" type="S" value="{4B6281F2-AE9F-45F7-9364-CBCCF27110C4}"/>
+					<Prp name="name" type="S" value="ProjectTestItem1"/>
+					<Prp name="stoponerror" type="I" value="2"/>
+					<Prp name="stoponexception" type="I" value="2"/>
+					<Prp name="test moniker" type="S" value="KDT\{385B16CC-7271-4252-9E87-CB840D76AE21}"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+			</Node>
 			<Prp name="key" type="S" value="{6192C39B-B942-4739-8FBA-576290D81DC5}"/>
 		</Node>
 		<Node name="variables">
