@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{B9D9273E-7266-43E0-BF02-97F168593604}" Version="11.0">
+	<TestData Description="" Key="{0F844D13-58E7-44ED-8B82-1E1AA4CD4471}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.calc" Data="61717A6970000000010000003604000078016D93ED4B536118C62FA13FA03FA18FFD057EE94B686516F62988127AC50291885E51222341084253EC6D886F63CEB7298A09A6E53615B7A9739BA998E879D9E6A64BE7CECE393B9B9B769F732CC2EDC0F55CCFE1F07BAEFBB9CFF31494E49F80F6E4D3789A74F248793845337A8EBEEB2FFA78787808558CC308BBE106BED55FC1D7B7973150538C9E574530559E47FBB342B43C2ED064AC2AC1ECB04163FEB2AA3B5A6F41E2AD08D8EB11B0D52130D980C0541382339F1174346373DE0491B3430A79A0AEF13FABF1CDD720326360475E2012D90133FC44F7D16ACD038E16E435EE410E7BB53A8EF3CE96EB90B8097063356046AAC08EBE06375E0BEEC73B70B606CAEF061A6390B79672F2B36DA5900233547BBD96C75BEB74B737E9F9739D5ABE14F6E5E4E73A6E42D95EC496A70761DA6BD8DD8990DB4CEAD2B560C1DEFA3804FF6C4E7EDE781BC9E83AE6BB2B20FAA78FDCA1B9C0EB1E5D1B458C73A2ED696156FFDCA67BC4B390832E88AC0D7192C05A11632610DB98A0ECEFD8591D418C77A1E3F9B92C7EC15C864DAA3DE06C063FFD89F411DCE407B0934D606D8D60AC0DD8B0BE0747FF413D13C7FBEFE97A407C1FD24A1C9994A82B29229D8CEB5204A4133170CE56985F5EC8E2BDDDE51A9F4949C8C851ECEFF991DA5E81E27741A6DAA595215A5B00E76A436F755116EFEBADC0A6D742B9320E688DB418C1FE2E8364C88704370D997AA7D6C6BBDAD1FFE66236DFF790F87EE2251C64F69151EB154248FD5E83127423C1D8681F22F1460CD65ECAE2172D8F10F40EA078288D33964C4E9D1DC8C03F67D2EED7F1FE2D0F5541DAE511DF5E25AD21B1C342A11E28519EE60CA4C82F08E125D232AC863B59F9E19FC3581AAC848FF6E1ED2987C77C1F6ED35DA8E7D2D55A0A07DDAFA92F5731D35E06C6D5FB8FFF03631371B5" />
+					<Bitmap Name="Aliases.calc.wndKalkulator" Data="61717A697000000001000000360400007801C591CD4B024118C69FA03FA03FA163C7E8E0A14BD42528A2637436BC4404753028A420F42044501991111925E42582923A4474F250418720A8285A5357F37B77DD8F59B7D955635D45EAE40CCF30C3F0FCE699F71D1AB375C21836BAF6507555D5816EBAA3A37A5F3954560DED9FE1C006A6466CFF9239B5EE57B81C94620672210D39978294652165E290D2319412EF109867706F8FE05E1E8C77AC7E22145A32C4148352EC15FCC753737F89430323FF4DB324698E8491A3C6D0FF6A7D5F1579902A83F0799A250B45FF4B1386D57F75E4832A8B50250144E70845B46258FD37213FCA44FE1B83D6D5EA8F9C1DA2AC92168CFADE58FD771741689AD6C030D7C4DC5FAB3F79E2852E36E801BBBF88F8F62C626B767CB927C0B846C13807F139DFFFAB88BDB7AEFEBA57BB0D40BDF6835CFAA09CAF433EF5420AAD420CBA200416C0EFCD81DF994671CB817B475F83BF962179EC067BB08CC4AE13F1CD994A0ECF24A22BE3882E0DD32C03460E73FFDBB9FF01EBA33263" />
+					<Bitmap Name="Aliases.calc.wndKalkulator.CalcFrame" Data="61717A697000000001000000360400007801AD924B4B02511886DFA01FD04F68D92FF007B40C82A0562D5A4910EDDAB48A0ABA407659489B6A11512B8B36454582250CD8852CB58B76C12EE6E4781967C6716E6A73460D472D233AC377CE0CC3F39C77BE39ED9D966618C3A2CF6D7AB594AA09ADFA9D3E4AEF8B0FC5B980FFBBAC1D1634AA9F76DB5BB323E0BBC495F71C671E0A94DB0597731F1BAB4B989F1E33DC8DF8D0DD0D6EAFFD350EE7C16E4DB66A17D93FFCF488C7FB508DC3ED3A3478F12D08E1C957370BE13FE8285E5F9E4D8E8BB3137828B7C148CC2BC4C8C3B73C717C57A4B772220A8979ABCB97BF87F03945822665A0893CD44C1A2A9F84928E434EC52027A38D794DA97128C4C1E90E3666E2ABFF39D95FA6C39022F7C88603C83E7821064F91B9A620F88F21F88E4CBC915716A16505687AD6F8E61CF81D3BB8AD19B0EB23482D0F2161EF47DCD60B66AA07B1892EDCDAAC5F2797F0795546AEE4601CB3486E2F20E9B021B13E0E666518B1C541D0B37DA027BB111DED40C43E60E20B39CDE42039543E05954B406119BD67B4DEFB7753EECA7E17F279543A7246EF39A8026B72905E95B9F24AF2FFB6EAF165CF5FD64FAED21512" />
+					<Bitmap Name="Aliases.calc.wndKalkulator.CalcFrame.page32770" Data="61717A697000000001000000360400007801AD924B4B02511886DFA01FD04F68D92FF007B40C82A0562D5A4910EDDAB48A0ABA407659489B6A11512B8B36454582250CD8852CB58B76C12EE6E4781967C6716E6A73460D472D233AC377CE0CC3F39C77BE39ED9D966618C3A2CF6D7AB594AA09ADFA9D3E4AEF8B0FC5B980FFBBAC1D1634AA9F76DB5BB323E0BBC495F71C671E0A94DB0597731F1BAB4B989F1E33DC8DF8D0DD0D6EAFFD350EE7C16E4DB66A17D93FFCF488C7FB508DC3ED3A3478F12D08E1C957370BE13FE8285E5F9E4D8E8BB3137828B7C148CC2BC4C8C3B73C717C57A4B772220A8979ABCB97BF87F03945822665A0893CD44C1A2A9F84928E434EC52027A38D794DA97128C4C1E90E3666E2ABFF39D95FA6C39022F7C88603C83E7821064F91B9A620F88F21F88E4CBC915716A16505687AD6F8E61CF81D3BB8AD19B0EB23482D0F2161EF47DCD60B66AA07B1892EDCDAAC5F2797F0795546AEE4601CB3486E2F20E9B021B13E0E666518B1C541D0B37DA027BB111DED40C43E60E20B39CDE42039543E05954B406119BD67B4DEFB7753EECA7E17F279543A7246EF39A8026B72905E95B9F24AF2FFB6EAF165CF5FD64FAED21512" />
+					<Bitmap Name="Sys.Process(&quot;calc&quot;)" Data="61717A6970000000010000003604000078016D93EB4B53611CC727F407F427F4B2BFC037BD09ADCCC25E055142572C1089E8AE4446821284A6D84DC4DB98F3364531C1B4DCA6E236756E3315133D976D6EBA7467DB39671737BFFD768EE7D5F6C0F7F93E87C3E777792E456585A774CA28A4F92CE9F4890A74676845E3E4BFFAA1CE00745931367D83B5ED96F0B3E91A7E7CB88A91BA520CBC2D81A1FA22BA5F14A3E36991227D4D99B038DED6A0719ADB3AEF08126F86CFDA049FA511BED966F8E65AE15FF806BFAD1DBBCB06889C1552C0856C0C8DD3DCD67E0322330576E21542A10330E3CF549FAC55DC67EB40418B0039E856EAD038CDED1D37217133E0A6EAC04CD4809D7C076EBA1EDCEF8FE02CCD94BF1FBA9608E4BDB5BCFC62573924DF02D5DEA4E4E3CD8DAA5B5BD5FC4BBD4A7E29E8C9CB2FF5DC46627F157BAE0104A9D7A0B31701A791D4A76AC504617B1A51EF625E7E597F17C9F03696FBAB207AE74FDCA67894573DBC3589086747D7F3626A5B3D37CD9D8607C4B390FD0E88AC053152943523C2CC20B23343B97FE160730211DE819E971772F815630576A9769FBD1DFCFC57D21770B39FC1CEB682B5B480313763C7FC091C9D43F64E68793577F53D227E08E9440C9994A82A29229D8CA94A44918E47C0D93B617C73298777F7572A7C262521238771247891DADF40C2EB804CB54B1B63143B0ACED185C1DA921CDE3358855DB789F2CA38A618693184A34306C98007716E1E32ED5DB636DED18DE1F79773F9A1C7C40F132FE13873844CB6DE6800A97F5B48F89D883316EA43245E8FD1FA2B39FCAAE909FCEE11948EA571CE94C9ABF3231978970CCAFBA200CABBD37C7DAC46900E79C4F637495B881FB048D01E24C23CAD1948A1BF8806D748EB30B7DDE3344EF3E09FF186B5D16AC1437DB8072AE1323E84D3701FD97BE9E82C47F67DCD7DBF8E85EE0A8E710CBED6B8FF86B12E7F" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}">
+				<Data Description="Runs the &quot;calc&quot; tested application." TestedApp="calc">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Count" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="IgnoreRunning" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
+						<Parameter Name="Timeout" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Performs a single click on the specified button." Action="ClickButton">
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.calc.wndKalkulator.CalcFrame.page32770.btn;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Performs a single click on the specified button." Action="ClickButton">
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.calc.wndKalkulator.CalcFrame.page32770.btn2;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Performs a single click on the specified button." Action="ClickButton">
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.calc.wndKalkulator.CalcFrame.page32770.btn;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Performs a single click on the specified button." Action="ClickButton">
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.calc.wndKalkulator.CalcFrame.page32770.btn3;" />
+				</Data>
+			</Operation>
+			<Operation Type="{CE294ABA-E13B-4B94-AFC8-FA8F4249123D}">
+				<Data Description="Moves the mouse cursor to the menu item specified and then simulates a single click." Action="Click" MenuType="0" PreferredMenu="MainMenu">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="Edycja|Kopiuj" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.calc.wndKalkulator;" />
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<CommonData Disabled="True" />
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="MessageText" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Sys.Clipboard" />
+						<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<CommonData Disabled="True" />
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="MessageText" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Aliases.calc.wndKalkulator.CalcFrame.Static.wText" />
+						<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<CommonData Disabled="True" />
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.calc.wndKalkulator.CalcFrame.Static" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wText" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="6" />
+						<Parameter Name="Value" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Sys.Clipboard" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<CommonData Disabled="True" />
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.calc.wndKalkulator.CalcFrame.Static" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wText" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="25" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="False" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+				<Data LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+					<Root Type="1" Operator="0">
+						<Left DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Sys.Clipboard" />
+						<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="4" />
+					</Root>
+				</Data>
+				<Children>
+					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+						<Data Description="Posts an information message to the test log." MessageType="0">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="pasuje" />
+								<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+				<Data />
+				<Children>
+					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+						<Data Description="Posts an error to the test log." MessageType="1">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="nie pasuje" />
+								<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{180A2D9C-07CF-406C-A3AD-F5F88281A719}">
+				<Data Description="Closes the process by sending the WM_CLOSE message to its main window." Action="Close" Process="calc" Index="1">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="WaitTimeout" DefVarType="3" DefValueType="1" DefValueValue="3000" VarType="3" ValueType="1" ValueValue="3000" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{FF00F03C-EDC7-4DC9-A1C3-1F7A6BC3FB3C}" />
+	<Parameters Key="{D598B241-7EB9-45A7-9B3C-1266E1F1A855}" />
+</Root>

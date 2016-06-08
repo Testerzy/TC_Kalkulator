@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="analysis">
+			<Prp name="key" type="S" value="{C60B5219-E1EF-4C3F-B1F6-16773F3903DB}"/>
+		</Node>
+		<Node name="child list">
+			<Node name="kalkulator">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Kalkulator\Kalkulator.mds"/>
+				</Node>
+				<Prp name="key" type="S" value="{E433C909-3394-4863-9D96-64F8999993E6}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+		</Node>
+		<Node name="folders"/>
+		<Node name="scc">
+			<Node name="data"/>
+			<Prp name="key" type="S" value="{C900492B-D218-429C-9AA0-264B7D78CA88}"/>
+			<Prp name="name" type="S" value="Git Plugin"/>
+		</Node>
+		<Node name="settings">
+			<Node name="{5a85e200-b5d2-4f74-972a-0221f2956a19}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value="Log"/>
+			</Node>
+			<Prp name="key" type="S" value="{540DF789-111F-4433-B53A-81963AA1A411}"/>
+			<Prp name="settingsversion" type="S" value="11.31"/>
+		</Node>
+		<Node name="test data">
+			<Node name="child list">
+				<Node name="item idx=0000">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{E433C909-3394-4863-9D96-64F8999993E6}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="key" type="S" value="{1FC5E7D6-B46F-43A5-9600-161473F67653}"/>
+		</Node>
+		<Node name="variables">
+			<Prp name="key" type="S" value="{50A214CE-5ED7-4A0E-B27B-AA050F681CAE}"/>
+		</Node>
+		<Prp name="key" type="S" value="{38114B54-39A3-4890-8510-F20778DD49E6}"/>
+		<Prp name="signature" type="S" value="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

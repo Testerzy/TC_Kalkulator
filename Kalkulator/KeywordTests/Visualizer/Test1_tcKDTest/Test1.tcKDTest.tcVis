@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="item idx=0000">
+				<Prp name="click point x" type="I" value="75"/>
+				<Prp name="click point y" type="I" value="256"/>
+				<Prp name="datetime" type="D" value="42528.467423669"/>
+				<Prp name="image file name" type="S" value="visImage0.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="1"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="270"/>
+				<Prp name="object left" type="I" value="58"/>
+				<Prp name="object name" type="S" value="Aliases.calc.wndKalkulator.CalcFrame.page32770.btn"/>
+				<Prp name="object right" type="I" value="92"/>
+				<Prp name="object top" type="I" value="243"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0001">
+				<Prp name="click point x" type="I" value="153"/>
+				<Prp name="click point y" type="I" value="224"/>
+				<Prp name="datetime" type="D" value="42528.4674283333"/>
+				<Prp name="image file name" type="S" value="visImage1.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="2"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="238"/>
+				<Prp name="object left" type="I" value="136"/>
+				<Prp name="object name" type="S" value="Aliases.calc.wndKalkulator.CalcFrame.page32770.btn2"/>
+				<Prp name="object right" type="I" value="170"/>
+				<Prp name="object top" type="I" value="211"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0002">
+				<Prp name="click point x" type="I" value="75"/>
+				<Prp name="click point y" type="I" value="256"/>
+				<Prp name="datetime" type="D" value="42528.4674313773"/>
+				<Prp name="image file name" type="S" value="visImage2.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="3"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="270"/>
+				<Prp name="object left" type="I" value="58"/>
+				<Prp name="object name" type="S" value="Aliases.calc.wndKalkulator.CalcFrame.page32770.btn"/>
+				<Prp name="object right" type="I" value="92"/>
+				<Prp name="object top" type="I" value="243"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0003">
+				<Prp name="click point x" type="I" value="192"/>
+				<Prp name="click point y" type="I" value="272"/>
+				<Prp name="datetime" type="D" value="42528.4674346296"/>
+				<Prp name="image file name" type="S" value="visImage3.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="4"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="302"/>
+				<Prp name="object left" type="I" value="175"/>
+				<Prp name="object name" type="S" value="Aliases.calc.wndKalkulator.CalcFrame.page32770.btn3"/>
+				<Prp name="object right" type="I" value="209"/>
+				<Prp name="object top" type="I" value="243"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0004">
+				<Prp name="click point x" type="I" value="-1"/>
+				<Prp name="click point y" type="I" value="-1"/>
+				<Prp name="datetime" type="D" value="42528.4674418866"/>
+				<Prp name="image file name" type="S" value="visImage4.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="5"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="322"/>
+				<Prp name="object left" type="I" value="0"/>
+				<Prp name="object name" type="S" value="Aliases.calc.wndKalkulator"/>
+				<Prp name="object right" type="I" value="228"/>
+				<Prp name="object top" type="I" value="0"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Prp name="key" type="S" value="{385B16CC-7271-4252-9E87-CB840D76AE21}"/>
+		</Node>
+		<Prp name="signature" type="S" value="{42D2222C-ACA2-405F-8E67-05D5C42EB839}"/>
+		<Prp name="version" type="I" value="1"/>
+	</Node>
+</Nodes>
