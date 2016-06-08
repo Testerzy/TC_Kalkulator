@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="settings"/>
+		<Node name="test data">
+			<Node name="test list"/>
+			<Prp name="classpath" type="S" value=""/>
+			<Prp name="maven project" type="S" value="D:\Java\JavaProjects\ECLIPSE\selenium_mvn_project\pom.xml"/>
+			<Prp name="run mode" type="I" value="0"/>
+			<Prp name="use mode" type="I" value="0"/>
+		</Node>
+		<Prp name="signature" type="S" value="{98B9825D-FAE6-48D5-83C2-A52AAEC31276}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

@@ -86,6 +86,15 @@
 				<Prp name="type" type="S" value="{90D101C8-80C7-48D4-9055-2E451B9BCD75}"/>
 				<Prp name="typename" type="S" value="Tested Applications"/>
 			</Node>
+			<Node name="unittesting1">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="UnitTesting1\UnitTesting1.tcUT"/>
+				</Node>
+				<Prp name="key" type="S" value="{6835D50F-BCA7-49AE-B7E6-0ECCEA808F5A}"/>
+				<Prp name="pluginname" type="S" value="Unit Testing"/>
+				<Prp name="type" type="S" value="{CCBF15D3-5453-4E8D-891C-1C74B57C6979}"/>
+				<Prp name="typename" type="S" value="Selenium or Unit Testing"/>
+			</Node>
 		</Node>
 		<Node name="config">
 			<Prp name="language" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
@@ -95,6 +104,7 @@
 				<Node name="folders"/>
 				<Node name="references">
 					<Prp name="{2ccfe613-855f-4fe2-95f0-09c3afd742fe}" type="S" value=""/>
+					<Prp name="{6835d50f-bca7-49ae-b7e6-0eccea808f5a}" type="S" value=""/>
 					<Prp name="{886dcf5f-03c9-4001-bd15-4d4597707f99}" type="S" value=""/>
 				</Node>
 				<Prp name="caption" type="S" value="Advanced"/>
@@ -1635,7 +1645,7 @@
 			</Node>
 			<Node name="runstandaloneserver">
 				<Prp name="type" type="I" value="1"/>
-				<Prp name="value" type="B" value="0"/>
+				<Prp name="value" type="B" value="-1"/>
 			</Node>
 			<Node name="standaloneserveradditionaloptions">
 				<Prp name="type" type="I" value="5"/>
