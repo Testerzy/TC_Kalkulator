@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{B9D9273E-7266-43E0-BF02-97F168593604}" Version="11.0">
+	<TestData Description="" Key="{9347292F-4D19-4A9D-B6B9-BF8ACB90B2AB}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{BC54211C-75B0-4842-8E85-DC65E2BB7AD9}">
+				<Data Description="Compares the %n Stores item with the %p1 file." Checkpoint="ola_txt">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="FileName" DefVarType="8" VarType="8" ValueType="6" ValueValue="C:\Users\Lucek\Documents\TestComplete 11 Projects\Kalkulator\ola2.txt" />
+						<Parameter Name="AllowedDifference" DefVarType="3" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{29FFF95E-2F7A-4F60-9DCD-35FFD1DD1716}">
+				<Data Description="Compares the %n Stores item with the contents of the control." Checkpoint="lista" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{0D16E9BD-894E-4F65-8AC4-F942B9708833}" />
+	<Parameters Key="{13E6647B-ABFB-437B-A5CC-34921CF22385}" />
+</Root>
