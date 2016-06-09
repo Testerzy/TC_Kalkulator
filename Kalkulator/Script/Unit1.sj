@@ -4,11 +4,22 @@
 
 function GeneralEvents_OnLogError(Sender, LogParams)
 {
-  closeCalc();
+  if (Aliases.calc.Exists) {
+    closeCalc();
+  }
+  
+  if (Aliases.Orders.Exists) {
+    closeOrders();
+  }
 }
 
 function getClipboard()
 {
   
   return Sys.Clipboard;
+}
+
+function closeOrders()
+{
+  Aliases.Orders.main.Close();
 }

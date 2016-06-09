@@ -38,7 +38,25 @@
 				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
 				<Prp name="typename" type="S" value="Tested Application"/>
 			</Node>
-			<Prp name="item count" type="I" value="1"/>
+			<Node name="item1">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="simple">
+							<Prp name="filename" type="S" value="Orders.exe"/>
+							<Prp name="filepath" type="S" value="C:\Users\Public\Documents\TestComplete 11 Samples\Desktop\Orders\C#\bin\Release\"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="Orders"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{1EBB2C55-96EB-41E6-9C6D-BBAE4C8BFF33}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Prp name="item count" type="I" value="2"/>
 		</Node>
 		<Node name="config">
 			<Prp name="node name" type="S" value="TestedApps"/>

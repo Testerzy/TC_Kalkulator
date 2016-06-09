@@ -169,7 +169,7 @@
 					<Prp name="generatedeventskey" type="S" value="{F4D92499-C8EE-4E56-AFEC-5E21F26561AE}"/>
 					<Prp name="generatedtlbdesc" type="S" value="TestComplete GeneralEvents Control - 2016-06-07 12:03:11"/>
 					<Prp name="generatedtlbkey" type="S" value="{F28B9973-BAC1-4485-85C6-7DD39A4AEDB8}"/>
-					<Prp name="handlerinfocount" type="I" value="0"/>
+					<Prp name="handlerinfocount" type="I" value="1"/>
 					<Prp name="lastopenedtlb" type="S" value=""/>
 					<Prp name="node name" type="S" value="GeneralEvents"/>
 				</Node>
@@ -183,7 +183,7 @@
 		</Node>
 		<Node name="config">
 			<Prp name="node name" type="S" value="Events"/>
-			<Prp name="tlbhistory" type="S" value=""/>
+			<Prp name="tlbhistory" type="S" value="&quot;TestComplete general events&quot;"/>
 		</Node>
 		<Node name="data"/>
 		<Node name="folders"/>

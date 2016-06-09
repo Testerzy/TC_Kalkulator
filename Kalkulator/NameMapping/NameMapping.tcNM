@@ -724,6 +724,89 @@
 											</Property>
 										</Properties>
 									</Child>
+									<Child Name="WindowsForms10Window8app0378734a" Key="{F4E0B41A-47D7-475E-A9C3-C00C1E8B1048}" ParallelWalk="True">
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="WindowsForms10.Window.8.app.0.378734a" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Item" Key="{EA2AFE7E-250D-4844-B92A-B02877CBCB42}" ParallelWalk="True">
+												<TypeInfo Item0="{BF984B86-F994-42DC-9DA4-E1A9EB81ABD4}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="WindowsForms10.EDIT.app.0.378734a" Type="5" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value PropertyType="0" Value="Mark Smith" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="btnMasterCard" Key="{D945A017-4C73-4009-BF44-DDDC3CBD5512}" ParallelWalk="True">
+												<TypeInfo Item0="{E0D8BD30-019D-491A-A28C-E74956E82043}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="WindowsForms10.BUTTON.app.0.378734a" Type="5" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value PropertyType="0" Value="MasterCard" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="WindowsForms10ToolbarWindow32app0378734a" Key="{D3C85D46-4FD8-43D2-9877-56ADC6CDA1A8}" ParallelWalk="True">
+										<TypeInfo Item0="{1B6B6603-B732-459D-8ADD-3D4975417B66}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="WindowsForms10.ToolbarWindow32.app.0.378734a" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnOK" Key="{0C9E1D14-37A9-4783-89F0-CC0F470AD1AD}" ParallelWalk="True">
+										<TypeInfo Item0="{E0D8BD30-019D-491A-A28C-E74956E82043}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="WindowsForms10.BUTTON.app.0.378734a" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="OK" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgOtwieranie" Key="{1C9C9838-4DF5-4D7F-A2D5-521F995BD59F}" ParallelWalk="True">
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="#32770" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Otwieranie" Type="5" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="dlgConfirmation" Key="{E355A605-5D2C-449C-B078-E4BB41B2C10D}" ParallelWalk="True">
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="#32770" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Confirmation" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnNie" Key="{7E2F84CC-94D2-491F-ACB3-0E8CEC867868}" ParallelWalk="True">
+										<TypeInfo Item0="{E0D8BD30-019D-491A-A28C-E74956E82043}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="&amp;Nie" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -833,6 +916,16 @@
 		<Child Name="Orders" Owner="{9581819B-059E-4EA8-BE1F-B87B805D1854}">
 			<Child Name="main" Owner="{8D89B500-4CF6-4BD4-B1D7-D4CE5EDA7F5A}">
 				<Child Name="ListWindow" Owner="{3B1158E4-BB26-42E7-831A-FC8884504A8A}" />
+				<Child Name="WindowsForms10Window8app0378734a" Owner="{F4E0B41A-47D7-475E-A9C3-C00C1E8B1048}">
+					<Child Name="Item" Owner="{EA2AFE7E-250D-4844-B92A-B02877CBCB42}" />
+					<Child Name="btnMasterCard" Owner="{D945A017-4C73-4009-BF44-DDDC3CBD5512}" />
+				</Child>
+				<Child Name="WindowsForms10ToolbarWindow32app0378734a" Owner="{D3C85D46-4FD8-43D2-9877-56ADC6CDA1A8}" />
+				<Child Name="btnOK" Owner="{0C9E1D14-37A9-4783-89F0-CC0F470AD1AD}" />
+			</Child>
+			<Child Name="dlgOtwieranie" Owner="{1C9C9838-4DF5-4D7F-A2D5-521F995BD59F}" />
+			<Child Name="dlgConfirmation" Owner="{E355A605-5D2C-449C-B078-E4BB41B2C10D}">
+				<Child Name="btnNie" Owner="{7E2F84CC-94D2-491F-ACB3-0E8CEC867868}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
@@ -2037,6 +2130,164 @@
 					</Child>
 					<Child Name="wItemCount" Doc="Returns the total number of items in the list view." IsBasic="True" Data="ZI4L2L4S3CT3G65S74K2H">
 						<ReturnValue Param0="3" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="-1383865952" Key="{BF984B86-F994-42DC-9DA4-E1A9EB81ABD4}">
+			<Data Properties="5D1CC4A2A0D75A4A852B794C329E5BF6UFFFFFFFFFFFFFFFFV4LBZZY">
+				<FunctionDescriptions>
+					<Child Name="SetText" Doc="Enters text in the text editor." IsBasic="True" Param0="Text" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="wText" Doc="Contents of the edit control, as text string." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="wSelection" Doc="Retrieves the selected text." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="505225355" Key="{1B6B6603-B732-459D-8ADD-3D4975417B66}">
+			<Data Properties="C57E4D78BBEDFA4CB8E90EA23669798BUFFFFFFFFFFFFFFFFV4LBZZY">
+				<FunctionDescriptions>
+					<Child Name="ClickItem" Doc="Simulates a click on Item specified by index from 0 or by name, with shift keys in the state specified by Shift." IsBasic="True" Param0="Item" Param1="ByPosition" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="wButtonCount" Doc="Returns the total number of buttons in the tool bar control." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="wButtonText" Doc="Returns the name of the button specified by Item, which is position from 0 by default, or idCommand number if ByPosition is specified as False." IsBasic="True" Param0="Item" Param1="ByPosition" Data="ZI4L2L4L2ZG8ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param1>
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
 					</Child>
 				</FunctionDescriptions>
 			</Data>
