@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="host1">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="address" type="S" value="LUCEK-KOMPUTER"/>
+					<Prp name="base path" type="S" value="C:\Program Files (x86)\SmartBear\TestComplete 11\Bin\"/>
+					<Prp name="caption" type="S" value="Host1"/>
+					<Prp name="domain" type="S" value=""/>
+					<Prp name="logonmode" type="I" value="1"/>
+					<Prp name="password" type="S" value="2E1D878CD74FB5107DF0F7D89CA9751F14CF14B9D4C17DFEC47F8628392D7809273E"/>
+					<Prp name="signature" type="S" value="{4C283132-D38F-4C25-B72C-75AD0D8A3093}"/>
+					<Prp name="source" type="S" value=""/>
+					<Prp name="user name" type="S" value="Lucek"/>
+					<Prp name="version" type="S" value="11.0"/>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{02BEBD00-B7F8-4EBA-BEDA-A985236BB826}"/>
+				<Prp name="pluginname" type="S" value="Network Suite"/>
+				<Prp name="type" type="S" value="{4C283132-D38F-4C25-B72C-75AD0D8A3093}"/>
+				<Prp name="typename" type="S" value="Host"/>
+			</Node>
+		</Node>
+		<Node name="folders"/>
+		<Node name="settings"/>
+		<Prp name="signature" type="S" value="{1478418C-D916-49E9-8E78-BF4561C164F9}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

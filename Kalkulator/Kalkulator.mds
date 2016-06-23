@@ -59,6 +59,15 @@
 				<Prp name="type" type="S" value="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}"/>
 				<Prp name="typename" type="S" value="Name Mapping"/>
 			</Node>
+			<Node name="networksuite">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="NetworkSuite\NetworkSuite.tcNetSuite"/>
+				</Node>
+				<Prp name="key" type="S" value="{1C1E7249-0A58-4396-BA62-4D3FF91C5003}"/>
+				<Prp name="pluginname" type="S" value="Network Suite"/>
+				<Prp name="type" type="S" value="{342AA317-C8C7-4232-8A60-069723AAFC67}"/>
+				<Prp name="typename" type="S" value="Network Suite"/>
+			</Node>
 			<Node name="script">
 				<Node name="item data">
 					<Prp name="relpath" type="S" value="Script\Script.tcScript"/>
@@ -103,6 +112,7 @@
 			<Node name="advanced">
 				<Node name="folders"/>
 				<Node name="references">
+					<Prp name="{1c1e7249-0a58-4396-ba62-4d3ff91c5003}" type="S" value=""/>
 					<Prp name="{2ccfe613-855f-4fe2-95f0-09c3afd742fe}" type="S" value=""/>
 					<Prp name="{6835d50f-bca7-49ae-b7e6-0eccea808f5a}" type="S" value=""/>
 					<Prp name="{886dcf5f-03c9-4001-bd15-4d4597707f99}" type="S" value=""/>
@@ -897,7 +907,7 @@
 				<Prp name="colcount" type="I" value="1"/>
 				<Prp name="colindex" type="I" value="0"/>
 				<Prp name="rowcount" type="I" value="3"/>
-				<Prp name="rowindex" type="I" value="1"/>
+				<Prp name="rowindex" type="I" value="0"/>
 				<Prp name="type" type="I" value="6"/>
 				<Prp name="val0x0" type="S" value="Off"/>
 				<Prp name="val0x1" type="S" value="Capture images only"/>
@@ -941,7 +951,7 @@
 				<Prp name="colcount" type="I" value="1"/>
 				<Prp name="colindex" type="I" value="0"/>
 				<Prp name="rowcount" type="I" value="3"/>
-				<Prp name="rowindex" type="I" value="1"/>
+				<Prp name="rowindex" type="I" value="0"/>
 				<Prp name="type" type="I" value="6"/>
 				<Prp name="val0x0" type="S" value="Off"/>
 				<Prp name="val0x1" type="S" value="Capture images only"/>
@@ -1645,7 +1655,7 @@
 			</Node>
 			<Node name="runstandaloneserver">
 				<Prp name="type" type="I" value="1"/>
-				<Prp name="value" type="B" value="-1"/>
+				<Prp name="value" type="B" value="0"/>
 			</Node>
 			<Node name="standaloneserveradditionaloptions">
 				<Prp name="type" type="I" value="5"/>

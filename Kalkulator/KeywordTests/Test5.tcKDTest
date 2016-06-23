@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{B9D9273E-7266-43E0-BF02-97F168593604}" Version="11.0">
+	<TestData Description="" Key="{673F6A0E-69F4-45C7-9ADA-42123D858E46}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.Orders" Data="61717A69700000000100000036040000780173F235636100033320A901C40250CCC8A000640101541EC28190FFFFFF67A01437343430908D81CE68201783EC05EA25D5FD070E1C80D839AA7F58841F283E49C5E034078DFFF702020CFF41E98848FC5C42029E7EEE03F580CD229106E92335DDD2423D0039C432EE" />
+					<Bitmap Name="Aliases.Orders.dlgConfirmation" Data="61717A697000000001000000360400007801C591CD4B024118C69FA03FA03FA163C7E8E0A14BD42528A2637436BC4404753028A420F42044501991111925E42582923A4474F250418720A8285A5357F37B77DD8F59B7D955635D45EAE40CCF30C3F0FCE699F71D1AB375C21836BAF6507555D5816EBAA3A37A5F3954560DED9FE1C006A6466CFF9239B5EE57B81C94620672210D39978294652165E290D2319412EF109867706F8FE05E1E8C77AC7E22145A32C4148352EC15FCC753737F89430323FF4DB324698E8491A3C6D0FF6A7D5F1579902A83F0799A250B45FF4B1386D57F75E4832A8B50250144E70845B46258FD37213FCA44FE1B83D6D5EA8F9C1DA2AC92168CFADE58FD771741689AD6C030D7C4DC5FAB3F79E2852E36E801BBBF88F8F62C626B767CB927C0B846C13807F139DFFFAB88BDB7AEFEBA57BB0D40BDF6835CFAA09CAF433EF5420AAD420CBA200416C0EFCD81DF994671CB817B475F83BF962179EC067BB08CC4AE13F1CD994A0ECF24A22BE3882E0DD32C03460E73FFDBB9FF01EBA33263" />
+					<Bitmap Name="Aliases.Orders.dlgWarning" Data="61717A697000000001000000360400007801C591CD4B024118C69FA03FA03FA163C7E8E0A14BD42528A2637436BC4404753028A420F42044501991111925E42582923A4474F250418720A8285A5357F37B77DD8F59B7D955635D45EAE40CCF30C3F0FCE699F71D1AB375C21836BAF6507555D5816EBAA3A37A5F3954560DED9FE1C006A6466CFF9239B5EE57B81C94620672210D39978294652165E290D2319412EF109867706F8FE05E1E8C77AC7E22145A32C4148352EC15FCC753737F89430323FF4DB324698E8491A3C6D0FF6A7D5F1579902A83F0799A250B45FF4B1386D57F75E4832A8B50250144E70845B46258FD37213FCA44FE1B83D6D5EA8F9C1DA2AC92168CFADE58FD771741689AD6C030D7C4DC5FAB3F79E2852E36E801BBBF88F8F62C626B767CB927C0B846C13807F139DFFFAB88BDB7AEFEBA57BB0D40BDF6835CFAA09CAF433EF5420AAD420CBA200416C0EFCD81DF994671CB817B475F83BF962179EC067BB08CC4AE13F1CD994A0ECF24A22BE3882E0DD32C03460E73FFDBB9FF01EBA33263" />
+					<Bitmap Name="Aliases.Orders.main" Data="61717A697000000001000000360400007801A5534B4EC330107D483D004760C909B245628960C319D87006EEC19E151207E000EC90104242424815E5534129A54DF38FED7C98B16393A812156DA2F12463BF9737CFCEEE81D783BE3C1AB729369BD8C0163DD1D5CC9B1733D658EF3EDAF3B04A1C1FEE68DCCDE539541298886690E1376430819C7F41F89F10B311C4F403F9F805D97B1FE9EB03E2A73BC4FD5B872FD208A7FB3DBC5D5DE8CC1CFCDEAEF1B3980C717D76A2EBC9F3FD2F3E8BC11CAC83D729D2C159068647F863D2415A4807D7F3D100E9F0D1E1CB3C45D170687C3C373CE15467AE713087CEA48339D837EEBF14192C07CF174E87AFD7B775683CE9E05E1C5EE68E83E739D80B453AAC27B66E33FB6AF1552151B6386C2FAC43EF4DEC6B4FACAF766F1CBE2CD0E11029F593902711F91A2E70D8FDB5F8BA2A51351C95128D96E51C0E5FD319FE1707F5437BD3C12FE53067447B42BEAAC85FC47738142AF587AFC461BFCF67609560FC7A7F6F8D1F5B1D3A8B" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}">
+				<Data Description="Runs the &quot;Orders&quot; tested application." TestedApp="Orders">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Count" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="IgnoreRunning" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
+						<Parameter Name="Timeout" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the %p1 item of the &apos;%n&apos; toolbar." Action="ClickItem">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Item" DefVarType="12" VarType="3" ValueType="1" ValueValue="4" />
+						<Parameter Name="ByPosition" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="False" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10ToolbarWindow32app0378734a;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Selects the %p1 item of the &apos;%n&apos; combo box." Action="ClickItem">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="FamilyAlbum" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.ProductNames;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Drags from point (%p1, %p2) of the &apos;%n&apos; object to offset (%p3, %p4)." Action="Drag">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ClientX" DefVarType="3" VarType="3" ValueType="1" ValueValue="13" />
+						<Parameter Name="ClientY" DefVarType="3" VarType="3" ValueType="1" ValueValue="8" />
+						<Parameter Name="toX" DefVarType="3" VarType="3" ValueType="1" ValueValue="-16" />
+						<Parameter Name="toY" DefVarType="3" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.Quantity.UpDownEdit;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Sets the value of the UpDown control &apos;%n&apos; to %v." Action="wValue" InvokeKind="2">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="wValue" DefVarType="5" VarType="5" ValueType="3" ValueValue="5" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.Quantity;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Drags from point (%p1, %p2) of the &apos;%n&apos; object to offset (%p3, %p4)." Action="Drag">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ClientX" DefVarType="3" VarType="3" ValueType="1" ValueValue="37" />
+						<Parameter Name="ClientY" DefVarType="3" VarType="3" ValueType="1" ValueValue="8" />
+						<Parameter Name="toX" DefVarType="3" VarType="3" ValueType="1" ValueValue="-37" />
+						<Parameter Name="toY" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.Price;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="$150" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.Price;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Drags from point (%p1, %p2) of the &apos;%n&apos; object to offset (%p3, %p4)." Action="Drag">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ClientX" DefVarType="3" VarType="3" ValueType="1" ValueValue="22" />
+						<Parameter Name="ClientY" DefVarType="3" VarType="3" ValueType="1" ValueValue="10" />
+						<Parameter Name="toX" DefVarType="3" VarType="3" ValueType="1" ValueValue="-29" />
+						<Parameter Name="toY" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.Discount;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="1%" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.Discount;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Drags from point (%p1, %p2) of the &apos;%n&apos; object to offset (%p3, %p4)." Action="Drag">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ClientX" DefVarType="3" VarType="3" ValueType="1" ValueValue="33" />
+						<Parameter Name="ClientY" DefVarType="3" VarType="3" ValueType="1" ValueValue="9" />
+						<Parameter Name="toX" DefVarType="3" VarType="3" ValueType="1" ValueValue="-44" />
+						<Parameter Name="toY" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.groupBox1.Total;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="1520" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.groupBox1.Total;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Sets the date %v in the &apos;%n&apos; date/time picker." Action="wDate" InvokeKind="2">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="wDate" DefVarType="8" VarType="8" ValueType="6" ValueValue="2017-04-06" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.Date;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="70" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="11" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.Customer;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="Adam Słodowy" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.Customer;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="75" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="16" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.Street;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="Mleczna" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.Street;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Tab]" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.Street;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="Katowice" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.City;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Tab]" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.City;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="![ReleaseLast]" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.State;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="Silesia" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.State;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Tab]" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.State;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="43-456" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.Zip;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.AE;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="19" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="9" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.CardNo;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="54646356675" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.CardNo;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Sets the date %v in the &apos;%n&apos; date/time picker." Action="wDate" InvokeKind="2">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="wDate" DefVarType="8" VarType="8" ValueType="6" ValueValue="2017-04-06" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.WindowsForms10Window8app0378734a.ExpDate;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main.btnOK;" />
+				</Data>
+			</Operation>
+			<Operation Type="{9DA3A5C5-0CCC-4919-831F-D38151308069}">
+				<Data Description="Compares the %n Stores item with the properties of the %p1 object." Checkpoint="dlgWarning1">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="AObject" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.Orders.dlgWarning" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.dlgWarning.btnOK;" />
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.Orders.main.ListWindow" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wItemCount" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="3" ValueType="1" ValueValue="1" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.Orders.main.ListWindow" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wItem(0, 0)" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Adam Słodowy" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="False" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{CAAA7522-FB54-4521-BF2F-29D327FC9341}">
+				<Data Description="Terminates the process." Action="Terminate">
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Sys.Process(&quot;Orders&quot;);" />
+				</Data>
+			</Operation>
+			<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+				<Data LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+					<Root Type="1" Operator="0">
+						<Left DefVarType="0" ParamType="{D44DB91E-FD74-4F67-BE3D-951A1238A9AD}" />
+						<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="False" />
+					</Root>
+				</Data>
+				<Children>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Closes the &apos;%n&apos; window." Action="Close">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="WaitTimeout" DefVarType="3" DefValueType="1" DefValueValue="2000" VarType="3" ValueType="1" ValueValue="2000" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.main;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Orders.dlgConfirmation.btnNie;" />
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{0B148898-0850-4610-9CB9-8DF374F17C07}" />
+	<Parameters Key="{CF0A5399-15C0-4E96-A1F5-D6C937F2F1EF}" />
+</Root>

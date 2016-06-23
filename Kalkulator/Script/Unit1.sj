@@ -11,11 +11,14 @@ function GeneralEvents_OnLogError(Sender, LogParams)
   if (Aliases.Orders.Exists) {
     closeOrders();
   }
+  if (Aliases.notepad.Exists) {
+    Aliases.notepad.Close();
+  }
 }
 
 function getClipboard()
 {
-  
+ 
   return Sys.Clipboard;
 }
 
